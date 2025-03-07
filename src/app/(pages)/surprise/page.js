@@ -7,11 +7,11 @@ import Lovebutton from '@/app/_components/Lovebutton';
 import SplitText from '@/app/_components/SplitText';
 
 const pickupLines = [
-  "Are you a magician? Because every time I look at you, everyone else disappears.",
-  "Do you have a map? I keep getting lost in your eyes.",
-  "Is your name Google? Because you have everything I’ve been searching for.",
-  "Are you a camera? Because every time I look at you, I smile.",
-  "Do you have a Band-Aid? Because I just scraped my knee falling for you."
+  "HEY MINI HAPPY BIRTHDAY TO YOU MY LOVEE 💗 ",
+  "MY LADY TUJ SAA CARING OR  LOYAL WALY IS DUNIYAAA ME KOI NAHI MERE JAAAN.",
+  "TERE TAREEEF ME KIA LIKHO KIA NA LIKHO ALFAZ KHATAM HO JANY HAIN BUT MA APKO DESCRIBE NA PAO GA.",
+  "BS ALLAH SY YEHI DUA KY TM HEMSHAKOSH RAHOO DUNIYA JAHAN KI SARI KUSIYAN ALLAH APKO DE OR ZINDAGI KY HAR MOORH PAR APKO KAAMYAB KRE.",
+  "ONES AGAIN HAPPY BIRTHDAY MERE JAAN 🎂 NOW YOU ARE 8TEEN😙❤️."
 ];
 
 const Page = () => {
@@ -42,14 +42,14 @@ const Page = () => {
   const renderContent = () => {
     switch (step) {
       case 0:
-        return <Lovebutton text="Decorate my room" onClick={handleNextStep} />;
+        return <Lovebutton text="AMY YAAHAN CLICK KR JALDI" onClick={handleNextStep} />;
       case 1:
         return (
           <div
             className="flex h-screen w-full bg-cover bg-center items-center justify-center"
             style={{ backgroundImage: "url('/bday.gif')" }}
           >
-            <Lovebutton text="Play Music" onClick={handleNextStep} />
+            <Lovebutton text="LETS GO MY LOVE 🤍" onClick={handleNextStep} />
           </div>
         );
       case 2:
@@ -58,7 +58,7 @@ const Page = () => {
             className="flex h-screen w-full bg-cover bg-center items-center justify-center"
             style={{ backgroundImage: "url('/bday.gif')" }}
           >
-            <Lovebutton text="Show my cake" onClick={handleNextStep} />
+            <Lovebutton text="CLICK FOR CAKE 🍰" onClick={handleNextStep} />
           </div>
         );
       case 3:
@@ -69,9 +69,9 @@ const Page = () => {
           >
             <BirthdayCake />
             <SplitText className="lg:text-7xl text-5xl text-center font-bold font-calligraffitti text-white p-4">
-              Happy Birthday crush!
+              HAPPY BIRTHDAY AMNA 😭🥳🎂!
             </SplitText>
-            <Lovebutton text="I have written some lines for you." onClick={handleNextStep} />
+            <Lovebutton text="NOW CLICK HERE 😗." onClick={handleNextStep} />
           </div>
         );
       case 4:
