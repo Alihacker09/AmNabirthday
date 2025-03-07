@@ -14,8 +14,8 @@ const Page = () => {
      <div className='w-96 h-96 rounded-full bg-gradient-to-r from-pink-500 to-red-500 absolute -z-10 bottom-20 lg:right-96 opacity-20 blur-3xl'>
     </div>
     <Image src="/love-bg.png" width={400} height={400} alt="crush" />
-      <SplitText className={"lg:text-7xl text-5xl font-bold font-calligraffitti bg-gradient-to-r from-pink-500 to-red-500  bg-clip-text text-transparent p-4" }>Welcome, My Crush!</SplitText>
-      <Lovebutton text="See Your Surprise!"  onClick={() => router.push("/surprise")} />
+      <SplitText className={"lg:text-7xl text-5xl font-bold font-calligraffitti bg-gradient-to-r from-pink-500 to-red-500  bg-clip-text text-transparent p-4" }>Welcome, MERE JAAAN 💁🏻❤️!</SplitText>
+      <Lovebutton text="YAHAN CLICK KROO💖!"  onClick={() => router.push("/surprise")} />
     </div>
   )
 }
